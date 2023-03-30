@@ -11,8 +11,8 @@
     "typescript": "^5.0.3"
   },
   "scripts": {
-    "start": "npx ts-node index.ts",
+    "start": "yarn ts-node index.ts",
     "compile": "yarn solcjs --bin --abi --include-path .yarn/ --base-path . -o . SimpleStorage.sol",
-    "encryptKey": "npx ts-node encryptKey.ts"
+    "encryptKey": "yarn ts-node encryptKey.ts"
   }
 }
